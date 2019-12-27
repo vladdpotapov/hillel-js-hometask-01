@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #333333;
+}
+
+.task {
+    padding: 50px 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+.heading-02,
+.task-description {
+    color: #be7200;
+}
+
+.form {
+    margin-top: 50px;
+}

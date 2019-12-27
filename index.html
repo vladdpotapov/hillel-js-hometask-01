@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Hometask 01</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <section class="task">
+        <h2 class="heading-02">Задание 1</h2>
+        <p class="task-description">
+            Сделать скрипт для сложения, вычитания, умножения и деления двух чисел.
+        </p>
+        <form class="form" action="#">
+            <p class="input-description">Первое число:</p>
+            <input type="text" name="number01" id="number01" placeholder="Введите число">
+            <p class="input-description">Второе Число:</p>
+            <input type="text" name="number02" id="number02" placeholder="Введите число">
+            <p class="input-description">Выберите операцию:</p>
+            <button onclick="addition()" type="button" id="btn-Addition">+</button>
+            <button onclick="subtraction()" type="button" id="btn-Subtraction">-</button>
+            <button onclick="multiplication()" type="button" id="btn-Multiplication">*</button>
+            <button onclick="division()" type="button" id="btn-Division">/</button>
+            <p class="input-description">Результат:</p>
+            <p class="input-description" id="result"></p>
+        </form>
+    </section>
+    <section class="task">
+        <h2 class="heading-02">Задание 2</h2>
+        <p class="task-description">
+            Сделать скрипт, получающий два значения и выводящий true, если значения равны
+            , false - если нет.
+        </p>
+        <form action="#" class="form">
+            <p class="input-description">Первое значение:</p>
+            <input type="text" name="value01" id="value01" placeholder="Введите значение">
+            <p class="input-description">Второе значение:</p>
+            <input type="text" name="value02" id="value02" placeholder="Введите значение">
+            <p class="input-description">Сравните значения</p>
+            <button type="button" onclick="comparing()" id="btn-compare">Сравнить</button>
+            <p class="input-description">Результат:</p>
+            <p class="input-description" id="compare-result"></p>
+        </form>
+    </section>
+    <section class="task">
+        <h2 class="heading-02">Задание 3</h2>
+        <p class="task-description">
+            Определить среднее арифметическое трех чисел.
+        </p>
+        <form action="#" class="form">
+            <p class="input-description">Первое число</p>
+            <input type="text" name="number01" id="num01" placeholder="Введите число">
+            <p class="input-description">Второе число</p>
+            <input type="text" name="number02" id="num02" placeholder="Введите число">
+            <p class="input-description">Третье число</p>
+            <input type="text" name="number03" id="num03" placeholder="Введите число">
+            <p class="input-description">Узнать среднее арифметическое</p>
+            <button type="button" onclick="averageNumber()" id="btn-calculate">Вычислить</button>
+            <p class="input-description">Результат:</p>
+            <p class="input-description" id="average-result"></p>
+        </form>
+    </section>
+    <section class="task">
+        <h2 class="heading-02">Задание 4</h2>
+        <p class="task-description">
+            Получить от пользователя 3 строки и вывести их в 
+            произвольном порядке одной командой (конкатенация).
+        </p>
+        <form action="#" class="form">
+            <p class="input-description">Первая строка</p>
+            <input type="text" name="string01" id="string01" placeholder="Заполните строку">
+            <p class="input-description">Вторая строка</p>
+            <input type="text" name="string02" id="string02" placeholder="Заполните строку">
+            <p class="input-description">Третья строка</p>
+            <input type="text" name="string03" id="string03" placeholder="Заполните строку">
+            <p class="input-description">Получить результат</p>
+            <button type="button" onclick="concatenate()">Конкатенация</button>
+            <p class="input-description">Результат:</p>
+            <p class="input-description" id="conc-result"></p>
+        </form>
+    </section>
+    <section class="task">
+        <h2 class="heading-02">Задание 5</h2>
+        <p class="task-description">
+            Разложить по цифрам пятизначное число и вывести в исходном порядке через пробел.
+        </p>
+        <form action="#" class="form">
+            <p class="input-description">Пятизначное число</p>
+            <input type="text" name="number" id="five-f-number" placeholder="Введите пятизначное число">
+            <p class="input-description">Получить результат</p>
+            <button type="button" onclick="calculate()">Вычислить</button>
+            <p class="input-description">Результат:</p>
+            <p class="input-description" id="figure-result"></p>
+        </form>
+    </section>
+    <script src="js/task01.js"></script>
+    <script src="js/task02.js"></script>
+    <script src="js/task03.js"></script>
+    <script src="js/task04.js"></script>
+    <script src="js/task05.js"></script>
+</body>
+</html>
