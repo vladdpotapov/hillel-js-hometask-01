@@ -10,5 +10,5 @@ function concatenate() {
 
     concatenationResult = string01 + ' ' + string02 + ' ' + string03;
 
-    alert(concatenationResult);
+    document.getElementById('conc-result').innerHTML = concatenationResult;
 }
